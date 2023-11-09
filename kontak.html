@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <!-- Tambahkan link ke Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Tambahkan link ke Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h2 {
+            font-family: Tahoma;
+        }
+
+        .social-links {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 30px; /* Ubah ukuran ikon sesuai keinginan Anda */
+            color: #0a0a0a;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="kontak.html"><i class="fa fa-phone" aria-hidden="true"></i> Kontak</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tentang saya.html"><i class="fa fa-male" aria-hidden="true"></i> Tentang
+                        Saya</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portofolio.html"><i class="fa fa-address-card" aria-hidden="true"></i>
+                        Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobby.html"><i class="fa fa-space-shuttle" aria-hidden="true"></i>
+                        hobby</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2>Hubungi Kami</h2>
+        <form action="index.html" method="get"> <!-- Tambahkan action attribute dengan nilai index.html -->
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan Email">
+            </div>
+            <div class="form-group">
+                <label for="pesan">Pesan:</label>
+                <textarea class="form-control" id="pesan" rows="4" placeholder="Masukkan Pesan"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
+
+        <div class="social-links">
+            <h2>Ikuti Saya di Media Sosial</h2>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.youtube.com/channel/UCE3gxObjhfxhW-sAl1qHCIQ"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/rsmnnl_/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/risman.lexsmanatea/"><i class="fab fa-facebook"></i></a>
+        </div>
+    </div>
+
+    <!-- Tambahkan link ke Bootstrap JavaScript (Popper.js diperlukan untuk dropdown) dan Bootstrap.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
